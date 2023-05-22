@@ -9,7 +9,7 @@ __3 Robustness analysis.__ Specifically, an ensemble of models is generated to s
 ## Dependencies 
 PathParser was developed and tested using Python 3.6+ with the following packages:   
    
-numpy1.16.1, pandas0.23.4, scipy1.2.1, sympy1.1.1, matplotlib3.0.3, seaborn0.8.1, openopt0.5625
+numpy1.16.1, pandas0.23.4, scipy1.2.1, sympy1.1.1, matplotlib3.0.3, seaborn0.8.1, openopt0.5625, pillow 6.0.0, xlrd 1.2.0, cvxopt and openpyxl
 ## Usage
 __main1.py__ performs MDF optimization and protein cost estimation with the following arguments:
    
