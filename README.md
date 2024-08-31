@@ -10,7 +10,7 @@ __3 Robustness analysis.__ Specifically, an ensemble of models is generated to s
 __main1.py__ performs MDF optimization and protein cost estimation with the following arguments:
    
 >-o, --outDir: output directory   
--r, --reactionFile: reaction file, required fields: Enzyme ID, Substrates, Products, Reversibility, [Δ<sub>r</sub>G'<sup>m</sup>](http://equilibrator.weizmann.ac.il/static/classic_rxns/faq.html#what-does-the-m-in-rg-m-fg-m-and-e-m-mean) and Enzyme MW. See below as an example   
+-r, --reactionFile: reaction file, required fields: Enzyme ID, Substrates, Products, Reversibility, [Δ<sub>r</sub>G'<sup>m</sup>](http://equilibrator.weizmann.ac.il/static/classic_rxns/faq.html#what-does-the-m-in-rg-m-fg-m-and-e-m-mean) and Enzyme MW. See below as an example
    
 |#Enzyme ID|Reversibility|Δ<sub>r</sub>G'<sup>m</sup> (kJ/mol)|Substrates|Products|Substrate Km (mM)|Product Km (mM)|kcat (1/s)|Enzyme MW (kDa)|
 |---|---|---|---|---|---|---|---|---|
